@@ -9,8 +9,8 @@ const BreadCrumb = ({ movieTitle }) => (
       <Link to="/">
         <span>Home</span>
       </Link>
-      <spam>|</spam>
-      <spam>{movieTitle}</spam>
+      <span>|</span>
+      <span>{movieTitle}</span>
     </Content>
   </Wrapper>
 );
